@@ -30,7 +30,7 @@ export default function Portfolio() {
 
         <div className="container relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
-            <div className="inline-block">
+            <div className="inline-block mt-[20px]">
               <div className="relative px-3 py-1 text-sm font-medium rounded-full bg-white/10 backdrop-blur-sm border border-white/20 mb-4">
                 <span className="relative z-10">Software Engineer & Frontend Developer</span>
                 <span className="absolute inset-0 rounded-full bg-gradient-to-r from-purple-500/20 to-pink-500/20 animate-pulse"></span>
@@ -100,7 +100,7 @@ export default function Portfolio() {
       </section>
 
       {/* About Section */}
-      <section id="about" className="py-32 relative">
+      <section id="about" className="py-12 md:py-32 relative">
         <div className="absolute inset-0 z-0">
           <div className="absolute top-1/4 right-1/4 w-64 h-64 bg-purple-500 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
           <div className="absolute bottom-1/3 left-1/3 w-64 h-64 bg-pink-500 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
@@ -178,7 +178,7 @@ export default function Portfolio() {
       </section>
 
        {/* Experience Section */}
-       <section id="experience" className="py-32 relative">
+       <section id="experience" className="py-12 md:py-32 relative">
         <div className="absolute inset-0 z-0">
           <div className="absolute top-1/3 right-1/3 w-64 h-64 bg-purple-500 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
           <div className="absolute bottom-1/4 left-1/4 w-64 h-64 bg-blue-500 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
@@ -194,7 +194,7 @@ export default function Portfolio() {
       </section>
 
       {/* Skills Section */}
-      <section id="skills" className="py-32 relative">
+      <section id="skills" className="py-12 md:py-32 relative">
         <div className="absolute inset-0 z-0">
           <div className="absolute top-1/3 left-1/4 w-64 h-64 bg-blue-500 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
           <div className="absolute bottom-1/4 right-1/4 w-64 h-64 bg-purple-500 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
@@ -221,7 +221,7 @@ export default function Portfolio() {
       </section>
 
       {/* Projects Section */}
-      <section id="projects" className="py-32 relative">
+      <section id="projects" className="py-12 md:py-32 relative">
         <div className="absolute inset-0 z-0">
           <div className="absolute top-1/4 left-1/3 w-64 h-64 bg-pink-500 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
           <div className="absolute bottom-1/3 right-1/4 w-64 h-64 bg-yellow-500 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
@@ -231,7 +231,7 @@ export default function Portfolio() {
           <SectionHeading title="Featured Projects" subtitle="Some of my recent work" />
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16">
-            <ProjectCard
+            {/* <ProjectCard
               title=" Ofza-CryptoExchange (White-label Solution)"
               description="As a key team member in the development of Ofza-CryptoExchange(it is a client project), a white-label cryptocurrency trading platform, I was primarily responsible for integrating and consuming REST APIs across the frontend to ensure seamless interaction between the user interface and backend services. My work involved implementing core features such as user authentication, wallet management, spot trading, and order book functionalities."
               tags={["Next.js", "TypeScript", "JavaScript", "Tailwind"]}
@@ -253,7 +253,7 @@ login processes."
               tags={["Next.js", "TypeScript", "JavaScript", "Tailwind"]}
               image="/passkey.png?height=400&width=600"
               demoUrl="https://bitdelta.com/en"
-            />
+            /> */}
             <ProjectCard
               title="NutriTrack Pro"
               description="This project is a Personalized Nutrition and Fitness Companion that integrates an AI Assistant to help users achieve their health and fitness goals. It offers tailored nutrition plans, fitness routines, and real-time guidance through AI-powered interactions. Users can track their daily progress, receive meal suggestions based on dietary preferences, and get personalized workout recommendations—all in one place."
@@ -285,7 +285,7 @@ top repository. The web app fetches data from github API and provide user friend
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="py-32 relative">
+      <section id="contact" className="py-12 md:py-32 relative">
         <div className="absolute inset-0 z-0">
           <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-pink-500 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
           <div className="absolute bottom-1/3 right-1/3 w-64 h-64 bg-purple-500 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
